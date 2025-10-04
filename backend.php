@@ -9,7 +9,7 @@ error_log("PHP script triggered at " . date("Y-m-d H:i:s"));
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
 
-    header("Access-Control-Allow-Origin: http://localhost:5173");
+    header("Access-Control-Allow-Origin: https://arif-drab.vercel.app/");
     header("Access-Control-Allow-Headers: Content-Type");
     header("Access-Control-Allow-Methods: POST");
 
